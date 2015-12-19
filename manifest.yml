@@ -1,0 +1,6 @@
+applications:
+- path: ./target/mqsubscriber-jar-with-dependencies.jar
+  memory: 512M
+  instances: 1
+  name: MQSubscriberApp
+  disk_quota: 1024M
